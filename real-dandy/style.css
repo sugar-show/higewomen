@@ -214,3 +214,7 @@ header .book-close-btn {
       font-size: 45%;
     }
   }
+@media (max-width: 767px) {
+  background-position: center top; /* または別の適切な位置 */
+  background-attachment: scroll; /* スクロールに変更 */
+}
