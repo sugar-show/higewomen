@@ -150,14 +150,12 @@ header .book-close-btn {
   }
 
 .game {
-    background: url(./img/IMG-9642\ \(1\).JPG) center 50% / 100% auto no-repeat;
-    background-position: center;
+    background: url(./img/IMG-9642\ \(1\).JPG);
+    background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
-    height: 100vh; /* 追加 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-repeat: no-repeat;
+    -webkit-background-attachment: fixed; /* iOS対応のプレフィックスを追加 */
+    background-attachment: scroll;
 }
 
 .game h2 {
