@@ -155,7 +155,7 @@ header .book-close-btn {
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-attachment: fixed; /* iOS対応のプレフィックスを追加 */
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .game h2 {
