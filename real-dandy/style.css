@@ -216,9 +216,3 @@ header .book-close-btn {
       font-size: 45%;
     }
   }
-　@media (max-width: 767px) {
- 　 .game{
-       background-position: center; /* または別の適切な位置 */
-  　   background-attachment: scroll; /* スクロールに変更 */
-    }
-　}
